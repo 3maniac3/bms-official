@@ -1,0 +1,177 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial;
+}
+
+/*HEADER*/
+header{
+  /*border: 2px solid red;*/
+  background: linear-gradient(to bottom, green, darkgreen);
+  height: auto;
+}
+
+header .headPanel{
+  font-family: "Times New Roman";
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header .headPanel img{
+  width: 50%;
+}
+header .headPanel h1{
+  color: yellow;
+}
+
+.navBar{
+  background-color: darkgreen;
+  display: flex;
+  justify-content: space-around;
+  border-top: 2px solid yellow;
+  border-bottom: 2px solid yellow;
+}
+
+.navBar a{
+  text-decoration: none;
+  font-family: Sans-Serif;
+  font-size: 1rem;
+  margin: 10px;
+  color: yellow;
+}
+
+/*FOR BOTTOM MAIN*/
+.container{
+  /*border: 2px solid lime;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+  background-color: rgb(231,231,231);
+  height: auto;
+}
+
+.panelInfo{
+  /*border: 2px solid red;*/
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 20px 0;
+  width: 95%;
+}
+
+.panelInfo h3{
+  font-size: 0.8rem;
+}
+
+.panelInfo #menTopScorers{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+.panelInfo #playerProfiles{
+  color: rgb(95,95,95);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.playersDisplay{
+  /*border: 2px solid rgb(177,177,177);*/
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+  gap: 20px;
+}
+
+.playersDisplay .players{
+  border: 1px solid rgb(177,177,177);
+  flex: 0 0 auto;
+  width: 250px;
+  height: 100%;
+  background: linear-gradient(to bottom, white, lightgrey);
+  display: flex;
+  flex-direction: column;
+  padding: 0 5px 0;
+  font-family: Sans-Serif;
+}
+
+.backNum{
+  font-family: "Times New Roman";
+  font-size: 3rem;
+  border-bottom: 2px solid;
+}
+
+.headIcon{
+  width: 60px;
+  height: 60px;
+  border-bottom: 2px solid;
+  border-radius: 20px;
+  margin-top: 5px;
+}
+
+.players #s1{
+  /*border: 2px solid purple;*/
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px 0;
+  margin-bottom: 10px;
+}
+
+.players #s2{
+  /*border: 2px solid green;*/
+  height: 500px;
+}
+
+.position{
+  font-size: 0.7rem;
+  color: grey;
+  margin-top: 5px;
+}
+
+.players #s3{
+  /*border: 3px solid tomato;*/
+  height: auto;
+}
+
+.players #s3 > h3{
+  font-size: 1rem;
+  color: rgb(194,194,194);
+}
+
+.players #s3 div{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid grey;
+  border-right: 2px solid grey;
+  padding: 10px 5px 10px 0;
+  margin-top: 40px;
+  font-size: 0.8rem;
+}
+
+.players #s4{
+  /*border: 2px solid tomato;*/
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.players #s4 a{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
