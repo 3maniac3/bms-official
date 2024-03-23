@@ -18,15 +18,16 @@ header{
 header .headPanel{
   font-family: "Times New Roman";
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
 header .headPanel img{
-  width: 50%;
+  width: 180px;
 }
 header .headPanel h1{
   color: yellow;
+  width: auto;
 }
 
 .navBar{
@@ -35,6 +36,8 @@ header .headPanel h1{
   justify-content: space-around;
   border-top: 2px solid yellow;
   border-bottom: 2px solid yellow;
+  position: sticky;
+  top: 0px;
 }
 
 .navBar a{
@@ -43,6 +46,11 @@ header .headPanel h1{
   font-size: 1rem;
   margin: 10px;
   color: yellow;
+}
+
+/*MAIN SECTION*/
+main{
+  height: 100rem;
 }
 
 /*FOR BOTTOM MAIN*/
