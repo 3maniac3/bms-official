@@ -3,27 +3,50 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="image/bms-logo.png">
   <title>Bintang Muda Sindeh</title>
 </head>
 <body>
   
-  <header>
+  <header id="home">
     <div class="headPanel">
       <img src="image/bms-logo.png">
       <h1><big>B</big><small>INTANG</small><br><big>M</big><small>UDA</small><br><big>S</big><small>INDEH</small></h1>
     </div>
   </header>
   <nav class="navBar">
-    <a href="#">Home</a>
-    <a href="#.container">Men</a>
+    <a href="#home">Home</a>
+    <a href="#men">Men</a>
     <a href="#">Contact</a>
   </nav>
   
   <main>
-    
+    <div class="panelInfo">
+      <h3 id="menTopScorers">MATCH HISTORY</h3>
+      <h3 id="playerProfiles">MATCHES ></h3>
+    </div>
+    <div class="trackMatch">
+      
+      <div class="trackPanel">
+        <div id="placePanel">
+          <h3>MAHESPATI FUTSAL</h3>
+          <img src="image/bms-logo.png">
+        </div>
+        <h3>28 JANUARY, 2024 <span id="win">WIN</span></h3>
+        <div id="s1">
+          <p>BMS</p>
+          <h3>9</h3>
+        </div>
+        <div id=s2>
+          <p>SPENDASI</p>
+          <H3>7</H3>
+        </div>
+      </div>
+      
+    </div>
   </main>
   
-  <div class="container">
+  <div class="container" id="men">
     <div class="panelInfo">
       <h3 id="menTopScorers">MEN'S TOP SCORERS</h3>
       <h3 id="playerProfiles">PLAYER PROFILES ></h3>
@@ -58,7 +81,7 @@
       <div class="players">
         <div id="s1">
           <h1 class="backNum">45</h1>
-          <img class="headIcon" src="image/players/name-riky_ahmad_fauzi.png">
+          <img class="headIcon" src="image/players/name-none.png">
         </div>
         <div id="s2">
           <h3>Adolf Hitler</h3>
@@ -83,7 +106,7 @@
       <div class="players">
         <div id="s1">
           <h1 class="backNum">47</h1>
-          <img class="headIcon" src="image/players/name-riky_ahmad_fauzi.png">
+          <img class="headIcon" src="image/players/name-none.png">
         </div>
         <div id="s2">
           <h3>Joseph Stalin</h3>
@@ -107,6 +130,20 @@
       
     </div>
   </div>
+  
+  <footer>
+    <div class="quoteBox">
+      <p id="quote">
+        'Allahumma Yassir Wala Tu'assir.'
+      </p>
+      <p id="quoteBy">
+        Ya Allah, mudahkanlah dan janganlah engkau persulit.
+      </p>
+    </div>
+    <div id="s1">
+      PROVIDED BY @glr.in (dalam pengembangan)
+    </div>
+  </footer>
   
 </body>
 </html>
