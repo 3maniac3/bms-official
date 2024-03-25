@@ -11,7 +11,7 @@ body{
 /*HEADER*/
 header{
   /*border: 2px solid red;*/
-  background: linear-gradient(to bottom, green, darkgreen);
+  background-color: green;
   height: auto;
 }
 
@@ -56,6 +56,7 @@ main{
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgb(231,231,231);
 }
 
 main .trackMatch{
@@ -72,6 +73,7 @@ main .trackMatch{
   height: 100%;
   font-family: Sans-Serif;
   border-radius: 15px;
+  background-color: white;
 }
 
 .trackPanel #placePanel{
@@ -142,7 +144,6 @@ main .trackMatch{
   align-items: center;
   background-color: rgb(231,231,231);
   height: auto;
-  padding-bottom: 50px;
 }
 
 .panelInfo{
@@ -263,6 +264,48 @@ main .trackMatch{
   border-radius: 20px;
   font-size: 0.7rem;
   font-weight: bold;
+}
+
+.sparringInfo{
+  background: linear-gradient(to bottom right, rgb(238,218,65), rgb(233,212,59));
+  margin-top: 50px;
+  height: auto;
+  font-weight: bold;
+  padding: 50px 10px 50px;
+}
+
+.sparringInfo #s1 p{
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  line-height: 30px;
+  border-top: 3px solid;
+  padding: 10px 0 10px;
+}
+
+.sparringInfo div div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 3px solid;
+}
+
+.fullTeam{
+  height: auto;
+  border-bottom: 3px solid;
+  padding-bottom: 10px;
+}
+
+.fullTeam p{
+  margin-top: 20px;
+  font-size: 1rem;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.fullTeam img{
+  width: 100%;
+  box-shadow: 2px 2px 10px white;
 }
 
 /*FOOTER*/
